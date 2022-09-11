@@ -52,13 +52,13 @@
     
     <div class="container text-center mt-2">
     
-      <a href="#" class="btn btn-primary mr-6">Edit</a>  
+      <a href="edit.jsp?note_id=<%=note.getId()%>" class="btn btn-primary mr-6">Edit</a>  
       
       <a href="DeleteServlet?note_id=<%=note.getId()%>" class="btn btn-danger">Delete</a>  
   
     
     </div>
-  
+   
   </div>
 </div>
  		
