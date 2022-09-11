@@ -44,6 +44,8 @@
         
         
         <input value="<%= note.getId()%>" name="noteId" type="hidden"/>
+  
+  
   <div class="form-group">
     <label for="title">Note title</label>
     <input 

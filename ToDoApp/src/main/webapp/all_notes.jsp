@@ -49,6 +49,8 @@
     <h5 class="card-title"><%= note.getTitle() %></h5>
     <p class="card-text"><%=note.getContent() %></p>
     
+    <p> <b> <%=note.getDate() %> </b></p>
+    
     
     <div class="container text-center mt-2">
     
